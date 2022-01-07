@@ -145,7 +145,7 @@ CheckFileExisted "$IsShuttle"
 
 #Check Operating System Type 
 CheckOSType
-printf "[%s]: INFO: Your Operating System Type: \n" "$d" "$machine"
+printf "[%s]: INFO: %s\n" "$d" "Your Operating System Type: $machine"
 
 #Check if gnome-terminal is installed or not#
 if [[ "$machine" =~ "Linux" ]]; then
